@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: url(images/Background/background4.png);
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 120px;
+    color:#F25A3C;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-bottom: 4px solid #F25A3C;
+}
+
+h2 {
+    font-family: Montserrat;
+    color:#F25A3C;
+    text-align: center;
+    font-size: 25px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    display: block;
+    font-family: Montserrat;
+    color:#F25A3C;
+    text-decoration: none;
+    padding: 20px;
+}
+
+h3 {
+    font-family: Montserrat;
+    color: #F25A3C;
+}
+
+p {
+    display: block;
+    font-family: Montserrat;
+    color:white;
+    padding: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 3px solid #F25A3C;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+    margin-top: 40px;
+}
+
+#end {
+    border-top: 4px solid #F25A3C;
+    border-bottom: none;
+}
+
+#projects {
+    border-top: 4px solid #F25A3C;
+    padding-top: 40px;
+}
+
+#home {
+    margin-right:auto ;
+}
+
+#text {
+    border-bottom: none;
+}
+
+#cards {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.card {
+    width: 500px;
+    height: 500px;
+    margin-bottom: 40px;
+    margin: 20px;
+}
+
+.card h3 {
+    color:#F25A3C;
+    background-color: white;
+    text-align: center;
+    font-size: 32px;
+    padding:15px;
+}
+
+.card p {
+    background-color: white;
+    color: #F25A3C;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card a {
+    color: white;
+    background-color: #F25A3C;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 215px;
+    padding: 8px 16px;
+    font-family: Montserrat;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#graphic {
+    background: url(images/Background/graphicdesign_bg.png);
+}
+
+#uiux {
+    background: url(images/Background/uiux_bg.png);
+}
+
+#bigid {
+    background: url(images/Background/bigid_bg.png);
+}
+
+#caaa {
+    background: url(images/Background/caaa_bg.png);
+}
+
+
+@media only screen and (min-width: 600px) {
+    #head {
+        font-size: 200px;
+    }  
+}
+
